@@ -6,29 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
     <style>
-        nav {
-            display: flex;
-            justify-content: space-around;
-background-color: blanchedalmond;
-margin: 20px;
-    padding: 12px;
+        body {
+            background-color: rgb(235, 198, 142);
+            margin: 0 auto;
+            padding: 0;
         }
 
-        nav a{
+        .nav11 {
+            display: flex;
+            justify-content: space-around;
+            background-color: blanchedalmond;
+            padding: 12px;
+        }
+
+        /* .nav11 a{
             margin: 20px;
             margin-top: 30px;
 
-        }
+        } */
         div .second {
             display: flex;
             justify-content: space-between;
             /* margin: 2px; */
-            margin-top: 5%;
+            /* margin-top: 5%; */
         }
-a:hover{
-   cursor: pointer; 
 
-}
+        a:hover {
+            cursor: pointer;
+
+        }
+
         /* .first {
             /* margin-right: 5%; 
         } */
@@ -43,31 +50,76 @@ a:hover{
             text-decoration: none;
             margin-right: 20px;
         }
+
+
+        .box {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 60px;
+            background-color: bisque;
+            padding: 20px;
+        }
     </style>
 </head>
 
-<nav>
-    
-    <div class="first">
-        <a>DayNight</a>
-    </div>
-    <div class="second">
-        <a href="#">Dashbord</a>
-        <a href="#">Product</a>
-        <a href="#">Analytics</a>
-        <a href="#">Index</a>
-        <a href="#">Settings</a>
-    </div>
-    <div class="third">
-        <button>A</button>
-        <a>Alex</a>
-        <a href="#">Logout</a>
-    </div>
 
-</nav>
+
+
 
 
 <body>
+
+    <nav class="nav">
+        <div class="nav11">
+            <div class="first">
+                <a>DayNight</a>
+            </div>
+            <div class="second">
+                <a href="#">Dashbord</a>
+                <a href="#">Product</a>
+                <a href="#">Analytics</a>
+                <a href="#">Index</a>
+                <a href="#">Settings</a>
+            </div>
+            <div class="third">
+                <button>A</button>
+                <a>Alex</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hard">
+        <h2>Good evening,Alex</h2>
+        <p>Here's what happening with your projects today</p>
+    </div>
+
+    <div class="box">
+        <div>
+            <p> Total Revenue</p>
+            <h1>$48,250</h1>
+            <p>+12.5% vs last period</p>
+        </div>
+        <div>
+            <p> Active Users</p>
+            <h1>$2420</h1>
+            <p>+8.5% vs last period</p>
+        </div>
+        <div>
+            <p> Total Orders</p>
+            <h1>$1,840</h1>
+            <p>+8.5% vs last period</p>
+        </div>
+        <div>
+            <p> Total Revenue</p>
+            <h1>$48,250</h1>
+        </div>
+        <div>
+            <p> Conversion Rate</p>
+            <h1>3.24%</h1>
+        </div>
+
+    </div>
 </body>
 
 </html>
