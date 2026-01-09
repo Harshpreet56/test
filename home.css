@@ -1,0 +1,41 @@
+body {
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+  background-color: rgb(162 229 208);
+}
+.nav a {
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.set1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.set1 p {
+  margin-right: 30px;
+  margin: 2%;
+}
+.set2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
+  padding: 20px;
+}
+
+.set2 div {
+  border: 2px solid;
+  padding: 30px;
+  border-radius: 30px;
+  background-color: aquamarine;
+}
+.set2 p {
+  color: green;
+}
